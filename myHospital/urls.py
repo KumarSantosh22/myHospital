@@ -31,3 +31,9 @@ urlpatterns = [
     path('logout/', logout),
     path('loginmodule/', include('loginmodule.urls'))
 ]
+
+
+#Change Site Title, Index Title and Site Title
+admin.site.site_header = "myHospital Administration"
+admin.site.site_title = "myHospital Administration"
+admin.site.index_title = "Welcome to myHospital Administration Admin Panel"
